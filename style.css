@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fredoka', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #ff80bd, #f2d8e3);
+  padding: 2rem;
+  color: #d3678e;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: #ffe7f1;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(255, 128, 189, 0.3);
+  border: 8px solid #fdd8e6;
+  position: relative;
+  background-image: url('https://www.transparenttextures.com/patterns/diamond-upholstery.png');
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: #ff66a3;
+}
+
+.header p {
+  font-size: 1.7rem;
+  color:#c26a7f;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.nav a {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  background: #e086ae;
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.nav a:hover {
+  background: #ff80bd;
+}
+
+h2.gradient-text {
+  font-size: 2rem;
+  background: linear-gradient(90deg, #cf6582, #eec5d0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1rem;
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.about .text,
+.about .image {
+  flex: 1 1 300px;
+}
+
+.about .text p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.info-box {
+  background: #ffeef5;
+  padding: 0.5rem 1rem;
+  border-left: 4px solid #f99fbd;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.cute-icons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.cute-icons img {
+  width: 70px;
+}
