@@ -100,3 +100,42 @@ h2.gradient-text {
 .cute-icons img {
   width: 70px;
 }
+
+.pixel-pet {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 80px;
+  animation: floaty 2s ease-in-out infinite;
+  z-index: 999;
+}
+
+.pixel-pet img {
+  width: 100%;
+  image-rendering: pixelated;
+}
+
+@keyframes floaty {
+  0%, 30% {
+    transform: translateY(10);
+  }
+  30% {
+    transform: translateY(-40px);
+  }
+}
+
+.about .text p {
+  background-color: #fff0f7;
+  padding: 10px 15px;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 1rem;
+}
+
+.corner-deco {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 100px;
+  z-index: 10;
+}
